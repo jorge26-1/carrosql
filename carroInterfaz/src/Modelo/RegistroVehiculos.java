@@ -10,7 +10,7 @@ public class RegistroVehiculos {
 
     
     public static void agregarVehiculo(String serial, int puertas, String modelo, String marca, String combustible, String adicionales) {
-        // Guardar en memoria
+        
         listaVehiculos.add(new String[] {
             serial, String.valueOf(puertas), modelo, marca, combustible, adicionales
         });
