@@ -16,7 +16,7 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+   
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
@@ -53,24 +53,24 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(0, 255, 255));
 
         titulu.setBackground(new java.awt.Color(255, 255, 255));
-        titulu.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        titulu.setFont(new java.awt.Font("Segoe UI", 1, 24)); 
         titulu.setForeground(new java.awt.Color(0, 0, 0));
         titulu.setText("Registre el Vehiculo");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Digite el Serial Del Vehiculo");
 
         Campo_Serial.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Digite El Modelo");
 
         Campo_Modelo.setBackground(new java.awt.Color(255, 255, 255));
 
         botonregistro.setBackground(new java.awt.Color(153, 102, 255));
-        botonregistro.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        botonregistro.setFont(new java.awt.Font("Segoe UI", 0, 18)); 
         botonregistro.setForeground(new java.awt.Color(0, 0, 0));
         botonregistro.setText("Registrarse");
         botonregistro.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -85,7 +85,7 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         });
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14));
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Digite El Numero De Puertas");
 
@@ -101,15 +101,15 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Toyota", "Chevrolet", "Fiat", "suzuki", "Mercedes", " " }));
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Marca  De Autos");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Tipo De Combustible");
 
-        jRadioButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton1.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton1.setText("Gasolina");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -118,32 +118,32 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
             }
         });
 
-        jRadioButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton2.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton2.setText("Disel");
 
-        jRadioButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton3.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton3.setText("Electrico");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Caracteristicas Adicionales");
 
-        jRadioButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton4.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton4.setText("Vidrios Atomaticos");
 
-        jRadioButton5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton5.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton5.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton5.setText("Aire Acondicionado");
 
-        jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jRadioButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jRadioButton6.setForeground(new java.awt.Color(0, 0, 0));
         jRadioButton6.setText("Pantalla De Juegos");
 
         jButton1.setBackground(new java.awt.Color(153, 51, 255));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Ver Registros");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -259,13 +259,12 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void botonregistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonregistroActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonregistroActionPerformed
+    private void botonregistroActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void botonregistroMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonregistroMouseClicked
+    private void botonregistroMouseClicked(java.awt.event.MouseEvent evt) {
                                                 
     System.out.println("Se hizo clic en el botón");
 
@@ -277,10 +276,10 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         grupoCombustible.add(jRadioButton2);
         grupoCombustible.add(jRadioButton3);
 
-        // Obtener los valores de los campos adicionales
+        
         String marca = (String) jComboBox1.getSelectedItem();
         
-        // Determinar el tipo de combustible
+       
         String tipoCombustible = "";
         if (jRadioButton1.isSelected()) {
             tipoCombustible = "Gasolina";
@@ -290,7 +289,7 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
             tipoCombustible = "Eléctrico";
         }
         
-        // Determinar las características adicionales
+        
         StringBuilder caracteristicas = new StringBuilder();
         if (jRadioButton4.isSelected()) {
             caracteristicas.append("Vidrios automáticos, ");
@@ -310,7 +309,7 @@ public class Formulario_Registro_Vehiculo extends javax.swing.JFrame {
         coche.setTipoCombustible(tipoCombustible);
         coche.setCaracteristicasAdicionales(caracteristicas.toString());
 
-        // Validar los campos
+        
         if (validarCamposVehiculo(auxSerial, auxModelo, auxNumeroPuertas)) {
             coche.mostrarInfo();
             JOptionPane.showMessageDialog(this, "Registro de vehículo exitoso.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
@@ -335,23 +334,21 @@ private boolean validarCamposVehiculo(String serial, String modelo, String numer
     if (!serial.matches("[0-9]+") || !modelo.matches("[0-9]+")) {
         return false;
     }
-   if (modelo.isEmpty() || !modelo.matches("[a-zA-Z0-9 ]+")) { // permite letras, números y espacios
+   if (modelo.isEmpty() || !modelo.matches("[a-zA-Z0-9 ]+")) { 
         return false;
     }
     
     return true;
 
-    }//GEN-LAST:event_botonregistroMouseClicked
+    }
 
-    private void Campo_NumeroPuertasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Campo_NumeroPuertasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Campo_NumeroPuertasActionPerformed
+    private void Campo_NumeroPuertasActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    }
 
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {
         jButton1.addActionListener(new java.awt.event.ActionListener() {
     public void actionPerformed(java.awt.event.ActionEvent evt) {
         TablaVehiculo tabla = new TablaVehiculo();
@@ -359,11 +356,11 @@ private boolean validarCamposVehiculo(String serial, String modelo, String numer
     }
 });
 
-    }//GEN-LAST:event_jButton1MouseClicked
+    }
 
    
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JTextField Campo_Modelo;
     private javax.swing.JTextField Campo_NumeroPuertas;
     private javax.swing.JTextField Campo_Serial;
@@ -387,5 +384,5 @@ private boolean validarCamposVehiculo(String serial, String modelo, String numer
     private javax.swing.JRadioButton jRadioButton5;
     private javax.swing.JRadioButton jRadioButton6;
     private javax.swing.JLabel titulu;
-    // End of variables declaration//GEN-END:variables
+   
 }
