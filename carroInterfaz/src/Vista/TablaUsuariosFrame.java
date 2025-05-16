@@ -5,9 +5,6 @@ import javax.swing.table.DefaultTableModel;
 
 public class TablaUsuariosFrame extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Tabla_Usuarios
-     */
     public TablaUsuariosFrame() {
         initComponents();
         cargarUsuarios();
@@ -15,7 +12,7 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -70,7 +67,7 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void cargarUsuarios() {
     DefaultTableModel modelo = new DefaultTableModel();
@@ -79,7 +76,7 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
     modelo.addColumn("Contraseña");
 
     
-    javax.swing.JTable tabla = tablaUsuarios; // 
+    javax.swing.JTable tabla = tablaUsuarios; 
 
     java.util.ArrayList<String[]> lista = Modelo.RegistroUsuarios.obtenerUsuarios();
     for (String[] usuario : lista) {
@@ -90,11 +87,7 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
 }
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+       
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -111,10 +104,9 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TablaUsuariosFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
+        
 
-        /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TablaUsuariosFrame().setVisible(true);
@@ -122,9 +114,9 @@ public class TablaUsuariosFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tablaUsuarios;
-    // End of variables declaration//GEN-END:variables
+    
 }
