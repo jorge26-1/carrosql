@@ -54,7 +54,7 @@ public class Coche extends Vehiculo {
         this.caracteristicasAdicionales = caracteristicasAdicionales;
     }
 
-    // Método para mostrar información del coche
+    
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
