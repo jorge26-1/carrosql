@@ -16,7 +16,7 @@ public class TablaVehiculo extends javax.swing.JFrame {
 
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -55,7 +55,7 @@ public class TablaVehiculo extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
   private void cargarVehiculos() {
     DefaultTableModel modelo = new DefaultTableModel();
     modelo.addColumn("Serial del Vehiculo");
@@ -65,9 +65,9 @@ public class TablaVehiculo extends javax.swing.JFrame {
     modelo.addColumn("Tipo de Combustible");
     modelo.addColumn("Caracteristicas Adicionales");
 
-    javax.swing.JTable tabla = jTable1; // la tabla donde mostrarás los vehículos
+    javax.swing.JTable tabla = jTable1; 
 
-    // Llamas a tu método para obtener los datos
+   
     java.util.ArrayList<String[]> lista = Modelo.RegistroVehiculos.obtenerVehiculos();
     for (String[] vehiculo : lista) {
         modelo.addRow(vehiculo);
@@ -78,7 +78,7 @@ public class TablaVehiculo extends javax.swing.JFrame {
 }
 
 
-public static ArrayList<String[]> vehiculosLocal = new ArrayList<>(); // En memoria
+public static ArrayList<String[]> vehiculosLocal = new ArrayList<>(); 
 
 public static void agregarVehiculoLocal(Coche coche) {
     String[] vehiculo = new String[6];
@@ -101,8 +101,8 @@ public static void agregarVehiculoLocal(Coche coche) {
     
     
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
-    // End of variables declaration//GEN-END:variables
+    
 }
