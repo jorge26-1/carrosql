@@ -10,7 +10,7 @@ public class RegistroUsuarios {
 
     
     public static void agregarUsuario(String nombre, String correo, String contrasena) {
-        // Guardar en memoria
+        
         listaUsuarios.add(new String[] { nombre, correo, contrasena });
 
         
@@ -48,7 +48,7 @@ public class RegistroUsuarios {
                 usuarios.add(new String[]{nombre, correo, contrasena});
             }
 
-            // Cerrar recursos
+            
             rs.close();
             stmt.close();
             conn.close();
